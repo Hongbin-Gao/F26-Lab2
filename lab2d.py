@@ -21,7 +21,7 @@ print(len(sys.argv)) # tells us the number of command line arguments the user pr
 # I observed the version show out python version is 3.14.2
 # the platform is showing the github cadespace is linux
 # the argv is a list contain the information that I enter on common line
-# the argv is
+# the len(sys.argv) show how many item inside the enter command
 
 
 # TO DO 2: copy the required lines from README.md to print argv[0], argv[1] and argv[2]

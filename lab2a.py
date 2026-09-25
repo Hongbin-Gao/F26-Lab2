@@ -19,10 +19,10 @@ x = int(x)
 # create if-statement
 # the condition is x need greater than or equal to 6
 if x >= 6:
-    ## while the condition is "TRUE" print out "x is greater then 6!"
+    # while the condition is "TRUE" print out "x is greater then 6!"
     print("x is greater then 6!")
 
 # the condition is x greater than or equal to 4 and x is less than 12
-elif x >=4 and x < 12:
+if x >=4 and x < 12:
     # while the condition is "TRUE" print out appropriate message
     print("TRUE")
