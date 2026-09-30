@@ -19,6 +19,8 @@ if list == 0:
 #if the user not provide arguments
     print("This script requires exactly two arguments. No arguments were provided!")
 elif list < 2 or list > 2 :
-    print("This script requires exactly two arguments. You provided three arguments.")
-else:
+# if the user provide more or less 2 argument
+    print(f"This script requires exactly two arguments. You provided three arguments.")
+elif list == 2:
+# if it equal 2 arguments
     print("Hello user, good job, your provided two arguments!")

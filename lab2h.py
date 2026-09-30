@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Hongbin
+# Date: 2026/09/29
 # Purpose: Learn how to use while loops.
 # Usage: ./lab2h.py
 
@@ -12,3 +12,13 @@
 # Use a while loop to create program that counts down from 10 with timer to 1.
 # When you reach 1 end the loop and print blast off!
 
+
+# Start the timer at 10.
+timer = 10
+
+# Count down from 10 to 1.
+while timer >= 1:
+    print(timer)
+    timer = timer - 1
+
+print("Blast off!")
